@@ -5,7 +5,7 @@ public class UserIntroduction {
         String name_input = "";
         int age_input = 0;
         String hobby_input = "";
-    
+
         Scanner scan = new Scanner(System.in);
 
         System.out.print("What is your name?: ");
@@ -19,9 +19,10 @@ public class UserIntroduction {
         System.out.print("What is your favorite hobby?: ");
         hobby_input = scan.nextLine();
 
-        System.out.println();
+        System.out.println(); // added another line
 
-        System.out.println("Nice to meet you, " + name_input + "!\n" + "You are " + age_input + " years old and love " + hobby_input + ".");
+        System.out.println("Nice to meet you, " + name_input + "!\n" + "You are " + age_input + " years old and love "
+                + hobby_input + ".");
         scan.close();
     }
 
